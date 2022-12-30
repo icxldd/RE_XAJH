@@ -6,7 +6,7 @@
 - [x] 自动寻路
 - [x] 打怪，释放技能打怪
 - [x] 游戏自带怪物透视
-
+![image](https://img-blog.csdnimg.cn/8a20c8f2e640400f8c394b9e6e0d88e5.png#pic_center)
 数据皆为特征码定位，F5编译可用
 开源只供学习
 
