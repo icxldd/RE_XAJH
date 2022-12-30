@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="无用">
+      <UniqueIdentifier>{aaf3ecf5-081a-4d62-b6e6-1ad182361e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnyCall">
+      <UniqueIdentifier>{91327913-c705-4aa0-9a49-dee4280e01a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BeaEngine">
+      <UniqueIdentifier>{4ebfc6c2-f47f-4cd2-897d-9ea484ddd241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOOK类">
+      <UniqueIdentifier>{c219d28d-bd9a-4604-a471-f8ee22aab697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOOK日志">
+      <UniqueIdentifier>{738d3137-9fad-4a34-b0eb-0f535282363e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公共函数">
+      <UniqueIdentifier>{e2fce9fa-0fc1-40b6-9de0-0bb72bb82798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据">
+      <UniqueIdentifier>{583e203a-3262-493c-bbff-fa8fe350eaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能类">
+      <UniqueIdentifier>{a764d28e-aa67-407b-8c39-4073fd0a8b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="特征码类">
+      <UniqueIdentifier>{79bdab94-c393-44b7-9a6a-fea3adb26800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内存访问">
+      <UniqueIdentifier>{94302761-2fe6-4338-a5e6-2c23fa91a2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="全局类">
+      <UniqueIdentifier>{9aff2437-4462-49fa-aaff-79101bc3ffb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通用类">
+      <UniqueIdentifier>{aa367b84-ae1a-450c-9579-990656a3a3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="结构类">
+      <UniqueIdentifier>{7a3b329e-0bb5-4c43-82b3-88ec3d525fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="逻辑类">
+      <UniqueIdentifier>{453112e3-c021-4ef5-82ba-dcc24cea4211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理">
+      <UniqueIdentifier>{674f0385-2f18-4a1a-afaf-5ff741f19558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InjectDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDLG_MAIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BeaEngine\BeaEngine.c">
+      <Filter>BeaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CHook.cpp">
+      <Filter>HOOK类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGetLogs.cpp">
+      <Filter>HOOK日志</Filter>
+    </ClCompile>
+    <ClCompile Include="CPublic.cpp">
+      <Filter>公共函数</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunctions.cpp">
+      <Filter>功能类</Filter>
+    </ClCompile>
+    <ClCompile Include="ntinfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YSignatureCode.cpp">
+      <Filter>特征码类</Filter>
+    </ClCompile>
+    <ClCompile Include="CRETree.cpp">
+      <Filter>功能类</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemory.cpp">
+      <Filter>功能类</Filter>
+    </ClCompile>
+    <ClCompile Include="LSearchCode.cpp">
+      <Filter>特征码类</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalGame.cpp">
+      <Filter>全局类</Filter>
+    </ClCompile>
+    <ClCompile Include="LLog.cpp">
+      <Filter>通用类</Filter>
+    </ClCompile>
+    <ClCompile Include="Stu.cpp">
+      <Filter>结构类</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>通用类</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommonMemory.cpp">
+      <Filter>内存访问</Filter>
+    </ClCompile>
+    <ClCompile Include="DataQuery.cpp">
+      <Filter>全局类</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkThread.cpp">
+      <Filter>逻辑类</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerKillMonster.cpp">
+      <Filter>管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerSkill.cpp">
+      <Filter>管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerEatYao.cpp">
+      <Filter>管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerCommon.cpp">
+      <Filter>管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\InjectDll.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="InjectDll.def">
+      <Filter>无用</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InjectDll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDLG_MAIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>无用</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>无用</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>无用</Filter>
+    </ClInclude>
+    <ClInclude Include="AnyCall.h">
+      <Filter>AnyCall</Filter>
+    </ClInclude>
+    <ClInclude Include="BeaEngine\beaengine.h">
+      <Filter>BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CHook.h">
+      <Filter>HOOK类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGetLogs.h">
+      <Filter>HOOK日志</Filter>
+    </ClInclude>
+    <ClInclude Include="CPublic.h">
+      <Filter>公共函数</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>数据</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>数据</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunctions.h">
+      <Filter>功能类</Filter>
+    </ClInclude>
+    <ClInclude Include="ntinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YSignatureCode.h">
+      <Filter>特征码类</Filter>
+    </ClInclude>
+    <ClInclude Include="CRETree.h">
+      <Filter>功能类</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemory.h">
+      <Filter>功能类</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommonMemory.h">
+      <Filter>内存访问</Filter>
+    </ClInclude>
+    <ClInclude Include="LSearchCode.h">
+      <Filter>特征码类</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalGame.h">
+      <Filter>全局类</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetData.h">
+      <Filter>全局类</Filter>
+    </ClInclude>
+    <ClInclude Include="LLog.h">
+      <Filter>通用类</Filter>
+    </ClInclude>
+    <ClInclude Include="Stu.h">
+      <Filter>结构类</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>通用类</Filter>
+    </ClInclude>
+    <ClInclude Include="DataQuery.h">
+      <Filter>全局类</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkThread.h">
+      <Filter>逻辑类</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerKillMonster.h">
+      <Filter>管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerSkill.h">
+      <Filter>管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerEatYao.h">
+      <Filter>管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerCommon.h">
+      <Filter>管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InjectDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
